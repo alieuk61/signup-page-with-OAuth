@@ -1,0 +1,1 @@
+This folder is for middlewares both for authentication/authorisation and error handling middlewares

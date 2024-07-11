@@ -1,0 +1,16 @@
+{
+    "navigtion": [
+        {
+            "name": "login",
+            "path": "/login"
+        },
+        {
+            "name": "sign-up",
+            "path": "/sign-up"
+        },
+        {
+            "name": "dashboard",
+            "path": "/dashboard"
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+need to create a session using express.sessions
+we need to receive passwords and add salting to those passwords => hash them

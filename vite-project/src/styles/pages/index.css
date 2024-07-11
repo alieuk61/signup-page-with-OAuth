@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: white;
+  font-family: sans-serif;
+}
+
+:root{
+  --cream: #F9E2AF;
+  --ocean-blue: #96C9F4;
+  --light-blue: #3FA2F6;
+  --light-yellow: #FFF078;
+  --orange: #FF7F3E;
+}
+
+.main-page{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  padding: 20px;
+
+  .sign-up-form{
+    display: grid;
+    grid-template-columns: repeat(2, 55% 45%);
+    width: 100%;
+    height: 100%;
+    .shoe-icon{
+      background-image: url('../../assets/nike-shoes.jpg');
+      background-size: cover;
+      background-position: 40%;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      height: 100%;
+      width: 100%;
+
+    }
+
+   .login-section{
+    width: 400px;
+    height: fit-content;
+    display: grid;
+    place-self: center;
+
+    .title{
+      font-size: 2.3rem;
+      margin-bottom: 10px;
+    }
+
+    .inputs{
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+  
+      .email-input{
+        padding: 15px 0 15px 20px;
+        width: 100%;
+        background-color: inherit;
+        color: white;
+        outline: none;
+        border: 2px solid white;
+        border-radius: 10px;
+      }
+
+      .password-input{
+        padding: 15px 0 15px 20px;
+        width: 100%;
+        background-color: inherit;
+        color: white;
+        outline: none;
+        border: 2px solid white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        .hide-icon{
+          margin-right: 20px;
+          cursor: pointer;
+        }
+
+        input{
+          background-color: inherit;
+          outline: none;
+          border: none;
+          width: 100%;
+        }
+      }
+     }
+  
+     .forgotten-password-section{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+
+      .remember-login_section{
+        display: flex;
+        gap: 10px;
+      }
+     }
+
+     button{
+      width: 100%;
+      padding: 15px 0;
+      border-radius: 15px;
+      background-color: var(--orange);
+      border: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      cursor: pointer;
+      margin-top: 50px;
+
+      &:hover{
+        background-color: var(--light-yellow);
+      }
+     }
+
+     .email-login-section::before, .email-login-section::after{
+      background-color: #fff;
+      content: "";
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 30%;
+     }
+
+     .email-login-section::before{
+      margin-right: 27px;
+     }
+
+     .email-login-section::after{
+      margin-left: 27px;
+     }
+
+     .email-login-section{
+      text-align: center;
+      margin-top: 50px;
+     }
+
+     .email-login-btns{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+     
+   }
+  }
+
+}
+

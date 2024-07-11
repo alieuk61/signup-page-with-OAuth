@@ -1,0 +1,6 @@
+.google-icon, .apple-icon, .outlook-icon{
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
