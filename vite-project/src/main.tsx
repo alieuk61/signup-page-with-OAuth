@@ -10,8 +10,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <ContextProvider>
       <Router>
         <Routes>
-          <Route path='/' Component={LoginPage}/>
-          <Route path='/register' Component={SignUpPage}/>
+          <Route path='/' element={<LoginPage/>}/>
+          <Route path='/register' element={<SignUpPage/>}/>
         </Routes>
       </Router>
     </ContextProvider>

@@ -4,3 +4,14 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.submit-button{
+    background-color: #3FA2F6;
+    width: 300px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    justify-self: center;
+}

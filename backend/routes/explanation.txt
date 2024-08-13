@@ -1,0 +1,1 @@
+Define the endpoints of your API and associate them with the appropriate controller functions., routes allow us to share the requests to other files/functions e.g. from route to the controller function specified next to the endpoint
