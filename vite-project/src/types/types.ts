@@ -4,6 +4,7 @@ export interface User {
 }
 
 export interface contextValues {
-    submitLogin : (userLogin: User) => Promise<boolean>;
+    submitLogin : (userLogin: User) => Promise<any>;
     // this function will return the success boolean ,if true that means the user is authenticated else they will be told to make sure the user/password is correct
+    googleSignIn : () => Promise<string | void>;
 }

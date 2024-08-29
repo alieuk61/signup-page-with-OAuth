@@ -1,1 +1,0 @@
-Contains configuration files such as database connection settings, environment variables, and secrets, however i will keep env file in the root dir
